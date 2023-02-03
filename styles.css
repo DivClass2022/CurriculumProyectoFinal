@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+body{
+    max-width: 1000px;
+    margin: 100px auto;
+    padding: 90px 20px 0;
+
+}
+
+
+.header{
+    background-color: #0769e9;
+    height: 100px;
+    position:fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+
+
+nav {
+    background-color: #0769e9;
+    height: 100px;
+    align-items: center;
+    justify-content: space-between;
+    display: inline-flex;
+    margin: auto;
+}
+    
+
+
+.nav-link{
+    background-color: #0769e9;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-menu-item{
+    display:inline-block;
+    font-size: 1.5rem;
+    margin:auto;
+    
+}
+
+.main-section{
+    transition: all 3.5s ease;
+  }
+
+.profile-pic{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0 40px;
+    line-height: 80px;
+    
+}
+
+#header-img {
+    width: 280px;
+    height: 280px;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+#enlaces{
+    transition: bottom 1.5 ease-out ;
+    
+ 
+ 
+}
+
+.fa-solid{
+    padding: auto;
+}
+
+.nav-link{
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+}
+
+h1{
+    font-size: 3rem;
+    padding: 2rem 1.5rem;
+    font-weight: bold;
+}
+
+h2{
+    font-size: 3rem;
+    padding: 2rem 1.5rem;
+}
+
+ul{
+    font-size: 1.5rem;
+}
+p{
+    font-size: 1.5rem;
+    line-height: 175%;
+    color: #333;
+}
+
+#progress-bar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 8px;
+    background: linear-gradient(to right, #9c6644, #f72, #f72585);
+    transition: width .3s ease-out
+}
